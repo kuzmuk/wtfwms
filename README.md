@@ -1,4 +1,4 @@
-[WTF with my server](http://wtfwms.com)
+[WTF with my server](http://wtfwms.com), wtfwms.com
 ==================
 
 Extraordinary tool for researching web application performance issues.
