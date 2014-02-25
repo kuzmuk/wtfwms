@@ -1,9 +1,12 @@
-wtfwms
-======
+WTF with my server
+==================
 
 Extraordinary tool for researching web application performance issues
+This is source code for client that should ne installed on servers. It fetches all needed metrics and sends them to wtfwms.com dashboard.
 
+You can find prebuilt binaries for some Centos and Ubuntu distros or build own package for any other linux platform.
 
+(c) Alex Kuzmuk, Andrey Bistriy, Taras Tarasov
 
 How It Works
 ============
@@ -13,7 +16,6 @@ You install a special tool that runs in the background on your server and set up
 WTFwms daemon constantly tracks active processes on your servers. One it notices that there are too many active workers it takes a snapshot of the most important system metrics and posts them on your dashboard where you can monitor and analyze it.
 
 WTFwms tracks CPU load, I/O wait time, memory and swam usage, list of TOP 10 active processes, TOP 5 slowest MySQL queries that are running now on each of your shared, open files and network connection of each active worker. It even traces all system calls of your workers so you can know exactly what they were doing at that moment. All of this works without any additional code in your application.
-
 
 
 Features
@@ -54,3 +56,9 @@ High Load environments have different requirements for tools. Having to deal wit
 
 12. Native Code for Best Performance
 WTFwms client is written using C++ and is compiled for most popular server operation systems. It does not use any other binaries or scripts to gather all metrics. Nothing else compares in speed.
+
+
+License
+=======
+
+You can use and modify this daemon. You can built package for any platform. If you will build your own dashboard you must provide a link to wtfwms.com site.
