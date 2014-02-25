@@ -61,4 +61,4 @@ WTFwms client is written using C++ and is compiled for most popular server opera
 License
 =======
 
-You can use and modify this daemon. You can built package for any platform. If you will build your own dashboard you must provide a link to wtfwms.com site.
+You can use and modify this daemon as you want. You should keep copyrights, author's inforamtion and link to wtfwms.com. You can built package for any platform. If you will build your own dashboard you must provide a link to wtfwms.com site.
