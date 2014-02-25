@@ -1,4 +1,4 @@
-WTF with my server
+WTF with my server [a link](http://wtfwms.com)
 ==================
 
 Extraordinary tool for researching web application performance issues.
