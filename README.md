@@ -1,7 +1,8 @@
 WTF with my server
 ==================
 
-Extraordinary tool for researching web application performance issues
+Extraordinary tool for researching web application performance issues.
+
 This is source code for client that should ne installed on servers. It fetches all needed metrics and sends them to wtfwms.com dashboard.
 
 You can find prebuilt binaries for some Centos and Ubuntu distros or build own package for any other linux platform.
