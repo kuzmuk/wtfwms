@@ -3,7 +3,7 @@
 
 Extraordinary tool for researching web application performance issues.
 
-This is a source code for client that should be installed on servers. It fetches all needed metrics and sends them to wtfwms.com dashboard.
+This is a source code for client that should be installed on servers. It fetches all needed metrics and sends them to [wtfwms.com](http://wtfwms.com) dashboard.
 
 You can find prebuilt binaries for some Centos and Ubuntu distros or build own package for any other linux platform.
 
@@ -50,4 +50,4 @@ Features
 License
 =======
 
-You can use and modify this daemon as you want. You should keep copyrights, author's information and link to wtfwms.com. You can built package for any platform. If you will build your own dashboard you must provide a link to wtfwms.com site.
+You can use and modify this daemon as you want. You should keep copyrights, author's information and link to wtfwms.com. You can built package for any platform. If you will build your own dashboard you must provide a link to [wtfwms.com](http://wtfwms.com) site.
