@@ -1,0 +1,17 @@
+apikey =             ; <- put your API key here
+threshold = 4        ; <- recommended value = CPU cores * 2
+statusurl = http://127.0.0.1/server-status
+workername = httpd   ; process name of your workers, this can be httpd, php-cgi, etc.
+
+mysqlhostname = 127.0.0.1
+;mysqlhostname = 127.0.0.2 ; you can put as many mysql hostnames as needed
+mysqluser = wtfwms
+mysqlpassword = ; create some unique password
+
+delaybetweenreports = 1
+listenperiod = 1
+
+skipfilespath = /var/log/
+obfuscatesql = yes
+resolvenetsockets = yes
+resolveunixsockets = yes

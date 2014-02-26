@@ -1,0 +1,12 @@
+Package: wtfwms51
+Priority: extra
+Section: checkinstall
+Installed-Size: 400
+Maintainer: alex@kuzmuk.com
+Architecture: amd64
+Version: 20130507
+Depends: libcurl3, libc6, libmysqlclient16, libstdc++6, libgcc1
+Provides: wtfwms, wtfworker, wtfwmsd
+Conflicts: 
+Replaces: 
+Description: WTFWtihMyServer.com daemon. Monitors web-apps health and finds bottlenecks.
