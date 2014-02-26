@@ -52,15 +52,10 @@ clean:
 tar: clean
 	mkdir $(TARNAME)
 	cp src $(TARNAME) -r
-	rm $(TARNAME)/src/.svn -rf
 	cp bin $(TARNAME) -r
-	rm $(TARNAME)/bin/.svn -rf
 	cp usr $(TARNAME) -r
-	rm $(TARNAME)/usr/.svn -rf
-	rm $(TARNAME)/usr/bin/.svn -rf
 	cp etc $(TARNAME) -r
 	rm $(TARNAME)/etc/.svn -rf
-	rm $(TARNAME)/etc/init.d/.svn -rf
 	cp makefile $(TARNAME) -r
 	tar -cf $(TARNAME).tar $(TARNAME)
 	gzip $(TARNAME).tar
@@ -87,11 +82,7 @@ deb51: clean all
 	mkdir $(DEB) 
 	mkdir $(DEB)/DEBIAN 
 	cp usr $(DEB) -r
-	rm $(DEB)/usr/.svn -rf
-	rm $(DEB)/usr/bin/.svn -rf
 	cp etc $(DEB) -r
-	rm $(DEB)/etc/.svn -rf
-	rm $(DEB)/etc/init.d/.svn -rf
 	cp $(DEB)/../debian/control51 $(DEB)/DEBIAN/control
 	cp $(DEB)/../debian/conffiles $(DEB)/DEBIAN
 	cp $(DEB)/../debian/wtfwms.ini.sample $(DEB)/etc -f
@@ -105,11 +96,7 @@ deb55: clean all
 	mkdir $(DEB) 
 	mkdir $(DEB)/DEBIAN 
 	cp usr $(DEB) -r
-	rm $(DEB)/usr/.svn -rf
-	rm $(DEB)/usr/bin/.svn -rf
 	cp etc $(DEB) -r
-	rm $(DEB)/etc/.svn -rf
-	rm $(DEB)/etc/init.d/.svn -rf
 	cp $(DEB)/../debian/control55 $(DEB)/DEBIAN/control
 	cp $(DEB)/../debian/conffiles $(DEB)/DEBIAN
 	cp $(DEB)/../debian/wtfwms.ini.sample $(DEB)/etc -f
